@@ -10,23 +10,23 @@
  /* shared style */
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   
 
 }
 .loge h2{
     font-size: 45px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 .color-orange{
     color: #FD6E0A;
 }
 /* main style */
 header{
-    background-color:#f3dfd2;
+    background-color:#FFF8F3;
     background-image: url("../images/developer.png"),url("../images/header_bg.png") ;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top: 50px;
 }
 nav{
@@ -123,13 +123,16 @@ nav .menu a{
     color: #757575;
     line-height: 30px;
 }
+.text-center{
+    text-align: center;
+}
 
 #banner .banner-image img{
 max-width: 585px;
 vertical-align: middle;
 }
 
-#about{
+#about, #skills , #resume{
     padding-top: 130px;
 }
 #about .about-container{
@@ -159,9 +162,7 @@ vertical-align: middle;
     color: #474747;
 }
 
-#skills{
-    padding-top: 130px;
-}
+
 #skills .skills-container{
     width: 71%;
     max-width: 1140px;
@@ -192,5 +193,89 @@ vertical-align: middle;
     color: #757575;
     line-height: 28px;
 }
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.section-title {
+     color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+     /* background-color: blue;   */
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 71px;
+}
+.card-title{
+    /* background-color: #FD6E0A; */
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #757575;
 
+}
+hr{
+    margin: 30px 0;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.social{
+    max-width: 562px;
+    /* background-color: red; */
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.social p{
+    /* background-color: #FD6E0A; */
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.icons a{
+     /* background-color: red;  */
+    margin-right: 30px;
+}
+.form input[type="text"],textarea{
+    /* background-color: red; */
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+}
 
